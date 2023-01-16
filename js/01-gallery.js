@@ -30,8 +30,10 @@ gallery.addEventListener("click", expandToFullScreen);
 
 function expandToFullScreen(event) {
   event.preventDefault();
+
   if (event.target.classList.contains("gallery__image")) {
     console.log(event.target);
+    console.log("YES");
   } else {
     console.log("NO");
   }
