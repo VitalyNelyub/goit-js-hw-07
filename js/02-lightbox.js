@@ -22,6 +22,7 @@ function createGalleryItem(galleryItems) {
 }
 
 
+
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionDelay: 250,
