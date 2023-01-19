@@ -1,4 +1,4 @@
-import { galleryItems } from './gallery-items.js';
+import { galleryItems } from "./gallery-items.js";
 // Change code below this line
 
 const gallery = document.querySelector(".gallery");
@@ -26,27 +26,4 @@ function createGalleryItem(galleryItems) {
     .join("");
 }
 
-
-// let gallery = new SimpleLightbox(".gallery a");
-// gallery.on("show.simplelightbox", function () {
-//   // do something…
-// });
-
-// gallery.on("error.simplelightbox", function (e) {
-//   console.log(e); // some usefull information
-// });
-
-// // with jQuery nearly the same
-// let gallery = $(".gallery a").simpleLightbox();
-// gallery.on("show.simplelightbox", function () {
-//   // do something…
-// });
-
-
-
-// var gallery1 = $('.gallery').simpleLightbox();
-
-// gallery.next(); // Next Image
-
-
-
+const lightbox = new SimpleLightbox(".gallery a", {});
